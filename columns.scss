@@ -14,23 +14,6 @@
   &-3 {
     width: 25%;
   }
-  @media only screen and (min-width: 1201px) {
-    &-xl-12 {
-      width: 100%;
-    }
-    &-xl-8 {
-      width: 66.7%;
-    }
-    &-xl-6 {
-      width: 50%;
-    }
-    &-xl-4 {
-      width: 33.3%;
-    }
-    &-xl-3 {
-      width: 25%;
-    }
-  }
   @media only screen and (max-width: 1200px) {
     &-lg-12 {
       width: 100%;
