@@ -6,23 +6,19 @@
         max-width: 100%;
         width: 100%;
     }
-    @media only screen and (max-width: 576px) {
-        max-width: 95%;
-        min-width: 90%;
-    }
-    @media only screen and (min-width: 576.1px) and (max-width: 768px) {
-        max-width: 95%;
-        min-width: 90%;
-    }
-    @media only screen and (min-width: 768.1px) and (max-width: 992px) {
-        width: 94%;
+    @media only screen and (min-width: 1400px) {
+        width: 90%;
+        max-width: 1300px;
     }
     @media only screen and (min-width: 992.1px) and (max-width: 1400px) {
         width: 92%;
         max-width: 1140px;
     }
-    @media only screen and (min-width: 1400px) {
-        width: 90%;
-        max-width: 1300px;
+    @media only screen and (min-width: 768.1px) and (max-width: 992px) {
+        width: 94%;
+    }
+    @media only screen and (max-width: 576px) {
+        max-width: 95%;
+        min-width: 90%;
     }
 }
